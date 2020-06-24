@@ -1,0 +1,14 @@
+.dropdown {
+  display: inline;
+  margin-right: 5px;
+}
+
+.dropdown button.btn.btn-secondary,
+.dropdown button.btn.btn-secondary:active:focus,
+.dropdown.show button.btn.btn-secondary {
+  background-color: #335441;
+}
+
+.container {
+  margin-bottom: 32px;
+}
