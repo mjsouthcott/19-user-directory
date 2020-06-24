@@ -2,7 +2,7 @@
   {
     "id": 1,
     "rank": "Lieutenant",
-    "rank_image": "assets/army-lieutenant.png",
+    "rank_badge": "assets/army-lieutenant.png",
     "first_name": "Mathieu",
     "last_name": "Leblanc",
     "occupation": "Electrical and Mechanical Engineering Officer",
@@ -13,7 +13,7 @@
   {
     "id": 2,
     "rank": "Warrant Officer",
-    "rank_image": "assets/army-warrant-officer.png",
+    "rank_badge": "assets/army-warrant-officer.png",
     "first_name": "James",
     "last_name": "Smith",
     "occupation": "Weapon Technician",
@@ -24,7 +24,7 @@
   {
     "id": 3,
     "rank": "Sergeant",
-    "rank_image": "assets/army-sergeant.png",
+    "rank_badge": "assets/army-sergeant.png",
     "first_name": "John",
     "last_name": "Brown",
     "occupation": "Vehicle Technician",
@@ -35,7 +35,7 @@
   {
     "id": 4,
     "rank": "Master Corporal",
-    "rank_image": "assets/army-master-corporal.png",
+    "rank_badge": "assets/army-master-corporal.png",
     "first_name": "Daniel",
     "last_name": "Tremblay",
     "occupation": "Vehicle Technician",
@@ -46,7 +46,7 @@
   {
     "id": 5,
     "rank": "Corporal",
-    "rank_image": "assets/army-corporal.png",
+    "rank_badge": "assets/army-corporal.png",
     "first_name": "Christine",
     "last_name": "Martin",
     "occupation": "Vehicle Technician",
@@ -57,7 +57,7 @@
   {
     "id": 6,
     "rank": "Craftsman",
-    "rank_image": "assets/army-private.png",
+    "rank_badge": "assets/army-private.png",
     "first_name": "Stephane",
     "last_name": "Roy",
     "occupation": "Vehicle Technician",
@@ -68,7 +68,7 @@
   {
     "id": 7,
     "rank": "Sergeant",
-    "rank_image": "assets/army-sergeant.png",
+    "rank_badge": "assets/army-sergeant.png",
     "first_name": "Robert",
     "last_name": "Wilson",
     "occupation": "Weapon Technician",
@@ -79,7 +79,7 @@
   {
     "id": 8,
     "rank": "Master Corporal",
-    "rank_image": "assets/army-master-corporal.png",
+    "rank_badge": "assets/army-master-corporal.png",
     "first_name": "David",
     "last_name": "MacDonald",
     "occupation": "Weapon Technician",
@@ -90,7 +90,7 @@
   {
     "id": 9,
     "rank": "Corporal",
-    "rank_image": "assets/army-corporal.png",
+    "rank_badge": "assets/army-corporal.png",
     "first_name": "Francois",
     "last_name": "Gagnon",
     "occupation": "Weapon Technician",
@@ -101,7 +101,7 @@
   {
     "id": 10,
     "rank": "Craftsman",
-    "rank_image": "assets/army-private.png",
+    "rank_badge": "assets/army-private.png",
     "first_name": "Sarah",
     "last_name": "Johnson",
     "occupation": "Weapon Technician",
@@ -112,7 +112,7 @@
   {
     "id": 11,
     "rank": "Sergeant",
-    "rank_image": "assets/army-sergeant.png",
+    "rank_badge": "assets/army-sergeant.png",
     "first_name": "Mark",
     "last_name": "Taylor",
     "occupation": "Electronic-Optronic Technician",
@@ -123,7 +123,7 @@
   {
     "id": 12,
     "rank": "Master Corporal",
-    "rank_image": "assets/army-master-corporal.png",
+    "rank_badge": "assets/army-master-corporal.png",
     "first_name": "Guy",
     "last_name": "Cote",
     "occupation": "Electronic-Optronic Technician",
@@ -134,7 +134,7 @@
   {
     "id": 13,
     "rank": "Corporal",
-    "rank_image": "assets/army-corporal.png",
+    "rank_badge": "assets/army-corporal.png",
     "first_name": "Paul",
     "last_name": "Campbell",
     "occupation": "Electronic-Optronic Technician",
@@ -145,7 +145,7 @@
   {
     "id": 14,
     "rank": "Craftsman",
-    "rank_image": "assets/army-private.png",
+    "rank_badge": "assets/army-private.png",
     "first_name": "George",
     "last_name": "Anderson",
     "occupation": "Electronic-Optronic Technician",

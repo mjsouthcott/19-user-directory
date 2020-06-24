@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+.jumbotron {
+  text-align: center;
+}
+
+.jumbotron,
+.dropdown button.btn.btn-secondary,
+.dropdown button.btn.btn-secondary:active:focus,
+.dropdown.show button.btn.btn-secondary {
+  background-color: #335441;
+}
+
+.jumbotron h1,
+.jumbotron p {
+  color: white;
+}
+
+.dropdown {
+  display: inline;
+  margin-right: 5px;
+}
+
+.container {
+  margin-bottom: 32px;
+}
