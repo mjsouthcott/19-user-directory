@@ -1,68 +1,79 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# User Directory
 
-## Available Scripts
+![GitHub followers](https://img.shields.io/github/followers/mjsouthcott?label=Follow&style=social)
+![GitHub repo size](https://img.shields.io/github/repo-size/mjsouthcott/19-user-directory)
+![GitHub top language](https://img.shields.io/github/languages/top/mjsouthcott/19-user-directory)
+![GitHub last commit](https://img.shields.io/github/last-commit/mjsouthcott/19-user-directory)
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+* [Description](#description)
+* [Technologies Used](#technologies-used)
+* [User Story](#user-story)
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#licence)
+* [Contributing](#contributing)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Description
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+This is a responsive web application that allows users to view a user directory containing employment information, and sort and filter the results.
 
-### `npm test`
+## Technologies Used
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* HTML5
+* CSS3
+* Javascript
+* Node.js
+* React
+* Bootstrap
+* Various npm packages
 
-### `npm run build`
+## User Story
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+AS A user
+I WANT to be able to view my entire employee directory at once
+SO THAT I have quick access to their information.
+```
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To install the application, click "Clone or download", copy the URL, launch Git Bash, navigate to your desired directory and use
+```
+git clone
+```
+followed by the copied URL.
 
-### `npm run eject`
+To launch the deployed application, click the following link: .
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Usage
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Launch Git Bash and navigate to the application's root directory. Once there, use
+```
+npm i
+```
+to install the dependencies, followed by
+```
+npm start
+```
+to run the application. If it doesn't do it automatically, open a browser window and go to
+```
+https://localhost:3000
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Licence
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+MIT License
 
-## Learn More
+Copyright (c) 2020 Matthew James Southcott
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-### Code Splitting
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## Contributing
 
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Feel free to email me if you'd like to contribute.
