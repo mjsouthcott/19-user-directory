@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "rank": "Lieutenant",
+    "first_name": "Mathieu",
+    "last_name": "Leblanc",
+    "occupation": "Electrical and Mechanical Engineering Officer",
+    "section": "Maintenance Platoon Headquarters",
+    "position": "Platoon Commander",
+    "years_of_service": 3
+  },
+  {
+    "id": 2,
+    "rank": "Warrant Officer",
+    "first_name": "James",
+    "last_name": "Smith",
+    "occupation": "Weapon Technician",
+    "section": "Maintenance Platoon Headquarters",
+    "position": "Platoon Second-in-Command",
+    "years_of_service": 24
+  },
+  {
+    "id": 3,
+    "rank": "Sergeant",
+    "first_name": "John",
+    "last_name": "Brown",
+    "occupation": "Vehicle Technician",
+    "section": "Vehicle Maintenance Section",
+    "position": "Section Commander",
+    "years_of_service": 15
+  },
+  {
+    "id": 4,
+    "rank": "Master Corporal",
+    "first_name": "Daniel",
+    "last_name": "Tremblay",
+    "occupation": "Vehicle Technician",
+    "section": "Vehicle Maintenance Section",
+    "position": "Section Second-in-Command",
+    "years_of_service": 8
+  },
+  {
+    "id": 5,
+    "rank": "Corporal",
+    "first_name": "Christine",
+    "last_name": "Martin",
+    "occupation": "Vehicle Technician",
+    "section": "Vehicle Maintenance Section",
+    "position": "Journeyman Technician",
+    "years_of_service": 5
+  },
+  {
+    "id": 6,
+    "rank": "Craftsman",
+    "first_name": "Stephane",
+    "last_name": "Roy",
+    "occupation": "Vehicle Technician",
+    "section": "Vehicle Maintenance Section",
+    "position": "Apprentice Technician",
+    "years_of_service": 1
+  },
+  {
+    "id": 7,
+    "rank": "Sergeant",
+    "first_name": "Robert",
+    "last_name": "Wilson",
+    "occupation": "Weapon Technician",
+    "section": "Weapon Maintenance Section",
+    "position": "Section Commander",
+    "years_of_service": 13
+  },
+  {
+    "id": 8,
+    "rank": "Master Corporal",
+    "first_name": "David",
+    "last_name": "MacDonald",
+    "occupation": "Weapon Technician",
+    "section": "Weapon Maintenance Section",
+    "position": "Section Second-in-Command",
+    "years_of_service": 6
+  },
+  {
+    "id": 9,
+    "rank": "Corporal",
+    "first_name": "Francois",
+    "last_name": "Gagnon",
+    "occupation": "Weapon Technician",
+    "section": "Weapon Maintenance Section",
+    "position": "Journeyman Technician",
+    "years_of_service": 4
+  },
+  {
+    "id": 10,
+    "rank": "Craftsman",
+    "first_name": "Sarah",
+    "last_name": "Johnson",
+    "occupation": "Weapon Technician",
+    "section": "Weapon Maintenance Section",
+    "position": "Apprentice Technician",
+    "years_of_service": 2
+  },
+  {
+    "id": 11,
+    "rank": "Sergeant",
+    "first_name": "Mark",
+    "last_name": "Taylor",
+    "occupation": "Electronic-Optronic Technician",
+    "section": "Electronic-Optronic Maintenance Section",
+    "position": "Section Commander",
+    "years_of_service": 16
+  },
+  {
+    "id": 12,
+    "rank": "Master Corporal",
+    "first_name": "Guy",
+    "last_name": "Cote",
+    "occupation": "Electronic-Optronic Technician",
+    "section": "Electronic-Optronic Maintenance Section",
+    "position": "Section Second-in-Command",
+    "years_of_service": 10
+  },
+  {
+    "id": 13,
+    "rank": "Corporal",
+    "first_name": "Paul",
+    "last_name": "Campbell",
+    "occupation": "Electronic-Optronic Technician",
+    "section": "Electronic-Optronic Maintenance Section",
+    "position": "Journeyman Technician",
+    "years_of_service": 7
+  },
+  {
+    "id": 14,
+    "rank": "Craftsman",
+    "first_name": "George",
+    "last_name": "Anderson",
+    "occupation": "Electronic-Optronic Technician",
+    "section": "Electronic-Optronic Maintenance Section",
+    "position": "Apprentice Technician",
+    "years_of_service": 1
+  }
+]
