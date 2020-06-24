@@ -1,9 +1,5 @@
 .jumbotron {
   text-align: center;
   background-color: #335441;
-}
-
-.jumbotron h1,
-.jumbotron p {
   color: white;
 }

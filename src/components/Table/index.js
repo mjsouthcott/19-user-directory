@@ -55,23 +55,21 @@ function Table (props) {
                     Column
                   </button>
                   <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <button className="dropdown-item" type="button">Rank (Default)</button>
+                    <button className="dropdown-item" type="button">ID (Default)</button>
+                    <button className="dropdown-item" type="button">Rank</button>
+                    <button className="dropdown-item" type="button">First Name</button>
+                    <button className="dropdown-item" type="button">Last Name</button>
+                    <button className="dropdown-item" type="button">Occupation</button>
+                    <button className="dropdown-item" type="button">Section</button>
+                    <button className="dropdown-item" type="button">Position</button>
+                    <button className="dropdown-item" type="button">Years of Service</button>
                   </div>
                 </div>
-                <div className="dropdown">
-                  <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Value
-                  </button>
-                  <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <button className="dropdown-item" type="button">None (Default)</button>
-                    <button className="dropdown-item" type="button">Lieutenant</button>
-                    <button className="dropdown-item" type="button">Warrant Officer</button>
-                    <button className="dropdown-item" type="button">Sergeant</button>
-                    <button className="dropdown-item" type="button">Master Corporal</button>
-                    <button className="dropdown-item" type="button">Corporal</button>
-                    <button className="dropdown-item" type="button">Craftsman</button>
+                <form className="form-inline">
+                  <div className="form-group">
+                    <input type="text" className="form-control" id="filter-value" aria-describedby="filter-value" placeholder="Enter value" />
                   </div>
-                </div>
+                </form>
               </div>
             </div>
           </div>
