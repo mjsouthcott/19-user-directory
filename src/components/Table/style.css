@@ -1,4 +1,9 @@
-.dropdown {
+button {
+  width: 100px;
+}
+
+.dropdown,
+form.form-inline {
   margin-right: 5px;
 }
 
@@ -11,6 +16,7 @@ form.form-inline {
 .dropdown button.btn.btn-secondary:active:focus,
 .dropdown.show button.btn.btn-secondary {
   background-color: #335441;
+  border-color:#335441;
 }
 
 form.form-inline {
@@ -19,4 +25,8 @@ form.form-inline {
 
 .container {
   margin-bottom: 32px;
+}
+
+.col-sm {
+  text-align: center;
 }

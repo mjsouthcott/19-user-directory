@@ -3,6 +3,31 @@ import "./style.css"
 import users from '../../users.json'
 
 function Table (props) {
+  let sortColumn = ''
+  let sortOrder = ''
+
+  function setSortColumn (value) {
+    sortColumn = value
+    console.log(sortColumn)
+  }
+
+  function setSortOrder (value) {
+    sortOrder = value
+    console.log(sortOrder)
+  }
+
+  function sort () {
+
+  }
+
+  function setFilterColumn (value) {
+
+  }
+
+  function filter () {
+
+  }
+
   return (
     <div className="container">
       <div className="container">
@@ -20,7 +45,7 @@ function Table (props) {
                     Column
                   </button>
                   <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <button className="dropdown-item" type="button">ID (Default)</button>
+                    <button className="dropdown-item" type="button" onClick={() => setSortColumn('id')}>ID (Default)</button>
                     <button className="dropdown-item" type="button">Rank</button>
                     <button className="dropdown-item" type="button">First Name</button>
                     <button className="dropdown-item" type="button">Last Name</button>
@@ -35,10 +60,11 @@ function Table (props) {
                     Order
                   </button>
                   <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <button className="dropdown-item" type="button">Ascending (Default)</button>
+                    <button className="dropdown-item" type="button" onClick={() => setSortOrder('asc')}>Ascending (Default)</button>
                     <button className="dropdown-item" type="button">Desending</button>
                   </div>
                 </div>
+                <button className="btn btn-secondary" type="button">Sort</button>
               </div>
             </div>
           </div>
@@ -70,6 +96,7 @@ function Table (props) {
                     <input type="text" className="form-control" id="filter-value" aria-describedby="filter-value" placeholder="Enter value" />
                   </div>
                 </form>
+                <button className="btn btn-secondary" type="button">Filter</button>
               </div>
             </div>
           </div>
