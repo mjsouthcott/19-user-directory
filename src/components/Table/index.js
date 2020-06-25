@@ -19,12 +19,128 @@ function Table (props) {
     console.log(sortOrder)
   }
 
+  function compareRank (a, b) {
+    const rankA = a.rank
+    const rankB = b.rank
+    let comparison = 0
+    if (rankA > rankB) {
+      comparison = 1
+    } else if (rankA < rankB) {
+      comparison = -1
+    }
+    if (sortOrder === 'asc') return comparison
+    else if (sortOrder === 'desc') return comparison * -1
+  }
+
+  function compareFirstName (a, b) {
+    const firstNameA = a.first_name
+    const firstNameB = b.first_name
+    let comparison = 0
+    if (firstNameA > firstNameB) {
+      comparison = 1
+    } else if (firstNameA < firstNameB) {
+      comparison = -1
+    }
+    if (sortOrder === 'asc') return comparison
+    else if (sortOrder === 'desc') return comparison * -1
+  }
+
+  function compareLastName (a, b) {
+    const lastNameA = a.last_name
+    const lastNameB = b.last_name
+    let comparison = 0
+    if (lastNameA > lastNameB) {
+      comparison = 1
+    } else if (lastNameA < lastNameB) {
+      comparison = -1
+    }
+    if (sortOrder === 'asc') return comparison
+    else if (sortOrder === 'desc') return comparison * -1
+  }
+  
+  function compareOccupation (a, b) {
+    const occupationA = a.occupation
+    const occupationB = b.occupation
+    let comparison = 0
+    if (occupationA > occupationB) {
+      comparison = 1
+    } else if (occupationA < occupationB) {
+      comparison = -1
+    }
+    if (sortOrder === 'asc') return comparison
+    else if (sortOrder === 'desc') return comparison * -1
+  }
+
+  function compareSection (a, b) {
+    const sectionA = a.section
+    const sectionB = b.section
+    let comparison = 0
+    if (sectionA > sectionB) {
+      comparison = 1
+    } else if (sectionA < sectionB) {
+      comparison = -1
+    }
+    if (sortOrder === 'asc') return comparison
+    else if (sortOrder === 'desc') return comparison * -1
+  }
+
+  function comparePosition (a, b) {
+    const positionA = a.position
+    const positionB = b.position
+    let comparison = 0
+    if (positionA > positionB) {
+      comparison = 1
+    } else if (positionA < positionB) {
+      comparison = -1
+    }
+    if (sortOrder === 'asc') return comparison
+    else if (sortOrder === 'desc') return comparison * -1
+  }
+
+  function compareYearsOfService (a, b) {
+    if (sortOrder === 'asc') return parseInt(a.years_of_service) - parseInt(b.years_of_service)
+    else if (sortOrder === 'desc') return parseInt(b.years_of_service) - parseInt(a.years_of_service)
+  }
+
+  function compareId (a, b) {
+    if (sortOrder === 'asc') return parseInt(a.id) - parseInt(b.id)
+    else if (sortOrder === 'desc') return parseInt(b.id) - parseInt(a.id)
+  }
+
   function sort () {
     let sortedUsers = []
 
-        // TODO: Add logic to sort users
+    switch (sortColumn) {
+      case 'rank':
+        sortedUsers = users.sort(compareRank)
+        break
+      case 'firstName':
+        sortedUsers = users.sort(compareFirstName)
+        break
+      case 'lastName':
+        sortedUsers = users.sort(compareLastName)
+        break
+      case 'occupation':
+        sortedUsers = users.sort(compareOccupation)
+        break
+      case 'section':
+        sortedUsers = users.sort(compareSection)
+        break
+      case 'position':
+        sortedUsers = users.sort(comparePosition)
+        break
+      case 'yearsOfService':
+        sortedUsers = users.sort(compareYearsOfService)
+        break
+      default:
+        sortedUsers = users.sort(compareId)
+        break
+    }
 
-    setUsersSubset(sortedUsers)
+    // Test
+    console.log(sortedUsers)
+
+    setUsersSubset([...sortedUsers])
   }
 
   function setFilterColumn (value) {
