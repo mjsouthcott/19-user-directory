@@ -47,6 +47,18 @@ followed by the copied URL.
 
 To launch the deployed application, click the following link: .
 
+![Step 1](https://github.com/mjsouthcott/19-user-directory/blob/master/demo/image1.PNG)
+
+The default view will show all users in the directory sorted in ascending order by ID.
+
+![Step 2](https://github.com/mjsouthcott/19-user-directory/blob/master/demo/image2.PNG)
+
+To sort the results in a different order, select a column to sort by, and ascending or descending order from the dropdowns on the left, and click the "Sort" button. In this case, the results are sorted by last name in descending order.
+
+![Step 3](https://github.com/mjsouthcott/19-user-directory/blob/master/demo/image3.PNG)
+
+To filter the results, select a column to filter by from the dropdown and enter a value in the input on the right, and click the "Filter" button. In this case, the results are filtered by rank for "Craftsman".
+
 ## Usage
 
 Launch Git Bash and navigate to the application's root directory. Once there, use
