@@ -45,7 +45,7 @@ git clone
 ```
 followed by the copied URL.
 
-To launch the deployed application, click the following link: .
+To launch the deployed application, click the following link: https://mjsouthcott.github.io/19-user-directory/.
 
 ![Step 1](https://github.com/mjsouthcott/19-user-directory/blob/master/demo/image1.PNG)
 
